@@ -52,7 +52,7 @@ nav{
  }
  /* banner style */
  .banner-content{
-    max-width: 585px
+    max-width: 585px;
  }
  .benner-title{
     font-size: 45px;
@@ -77,4 +77,45 @@ font-weight: 500;
    background-image:url(/images/developer.png),url(/images/header_bg.png);
    background-repeat: no-repeat;
    background-position: top left,bottom right;
+ }
+ .contact{ 
+   color: #FD6E0A;
+   background-color: white;
+   border-color: #FD6E0A;
+   font-size: 20px;
+    border-radius: 5px;
+    padding: 17px 34px;
+    border: 2px;
+    border-style: solid;
+}
+ /* about me design */
+ .section-title{
+   font-size: 35px;
+   color: #181818;
+   font-weight: bold;
+ }
+ .section-describtion{
+   color: #757575;
+   font-size: 18px;
+ }
+ .secondary-bg{
+   background-color: #FFF8F3;
+ } 
+ .about-contain{
+   border-radius: 10px;
+   padding: 130px 150px;
+   text-align: center;
+   margin-top: 130px;
+ }
+ main{
+   max-width: 1140px;
+   margin:0 auto;
+ }
+ .item-describtion{
+   font-size: 20px;
+   font-weight: bold;
+ }
+ .about-items{
+   display: flex;
+   justify-content: space-around;
  }
